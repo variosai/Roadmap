@@ -11,9 +11,10 @@ body:
     id: description
     attributes:
       label: Bezieht sich Ihre Feature Anfrage auf ein Problem? Bitte beschreiben Sie es.
-      required: true
       placeholder: "Eine klare und prägnante Beschreibung des Problems. Beispiel: Ich bin immer frustriert, wenn [...]"
-
+    validations:
+      required: true
+    
   - type: textarea
     id: solution
     attributes:
