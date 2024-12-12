@@ -1,6 +1,6 @@
 name: Bug Report
 description: Reichen Sie einen Fehlerbericht ein.
-title: "[Bug]: "
+title: "Bug: "
 labels: ["bug"]
 projects: ["varios-ai/1"]
 body:
@@ -14,7 +14,6 @@ body:
       label: Was ist passiert?
       description: Sagen Sie uns auch, was haben Sie erwartet?
       placeholder: Sagen Sie uns, was Sie sehen!
-      value: „Ein Bug ist aufgetreten!“
     validations:
       required: true
   - type: textarea
@@ -23,11 +22,10 @@ body:
       label: Schritte zur Reproduktion
       description: Wie kann das Verhalten reproduziert werden?
       placeholder: |
-       Gehen Sie zu '...'
-       Klicken Sie auf '....'.
-       Scrollen Sie nach unten zu '....'.
+       Gehen Sie zu '...'  
+       Klicken Sie auf '....'.  
+       Scrollen Sie nach unten zu '....'.  
        Siehe Fehler
-      value: „“
     validations:
       required: false
   - type: dropdown
