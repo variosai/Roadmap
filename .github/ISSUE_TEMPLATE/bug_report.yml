@@ -1,6 +1,6 @@
 name: Bug Report
 description: Reichen Sie einen Fehlerbericht ein.
-title: "Bug: "
+title: "Bug:"
 labels: ["bug"]
 projects: ["varios-ai/1"]
 body:
