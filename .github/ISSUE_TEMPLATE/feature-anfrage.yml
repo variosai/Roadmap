@@ -5,29 +5,25 @@ labels: ["feature"]
 projects: ["varios-ai/1"]
 body:
   - type: markdown
-    label: Bezieht sich Ihre Feature Anfrage auf ein Problem? Bitte beschreiben Sie es.
     id: description
     attributes:
-      value: |
-        Eine klare und prägnante Beschreibung des Problems. Beispiel: Ich bin immer frustriert, wenn [...]
+      label: Bezieht sich Ihre Feature Anfrage auf ein Problem? Bitte beschreiben Sie es.
+      placeholder: Eine klare und prägnante Beschreibung des Problems. Beispiel: Ich bin immer frustriert, wenn [...]
 
   - type: markdown
-    label: Beschreiben Sie die Lösung, die Sie sich wünschen
     id: solution
     attributes:
-      value: |
-        Eine klare und prägnante Beschreibung dessen, was Sie wollen.
+      label: Beschreiben Sie die Lösung, die Sie sich wünschen
+      placeholder: Eine klare und prägnante Beschreibung dessen, was Sie wollen.
 
   - type: markdown
-    label: Beschreiben Sie die Alternativen, die Sie in Betracht gezogen haben
     id: alternate
     attributes:
-      value: |
-        Eine klare und prägnante Beschreibung aller alternativen Lösungen oder Funktionen, die Sie in Betracht gezogen haben.
+      label: Beschreiben Sie die Alternativen, die Sie in Betracht gezogen haben
+      placeholder: Eine klare und prägnante Beschreibung aller alternativen Lösungen oder Funktionen, die Sie in Betracht gezogen haben.
 
   - type: markdown
-    label: Zusätzlicher Kontext
     id: context
     attributes:
-      value: |
-        Fügen Sie hier weitere Informationen oder Screenshots zu Ihrer Anfrage hinzu.
+      label: Zusätzlicher Kontext
+      placeholder: Fügen Sie hier weitere Informationen oder Screenshots zu Ihrer Anfrage hinzu.
