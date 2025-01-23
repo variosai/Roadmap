@@ -1,0 +1,41 @@
+name: Bug Report
+description: Reichen Sie einen Fehlerbericht ein.
+title: "Bug:"
+labels: 
+  - "bug"
+  - "new"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Vielen Dank, dass Sie sich die Zeit genommen haben, diesen Fehlerbericht auszufüllen!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Was ist passiert?
+      description: Sagen Sie uns auch, was haben Sie erwartet?
+      placeholder: Sagen Sie uns, was Sie sehen!
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Schritte zur Reproduktion
+      description: Wie kann das Verhalten reproduziert werden?
+      placeholder: |
+       Gehen Sie zu '...'  
+       Klicken Sie auf '....'.  
+       Scrollen Sie nach unten zu '....'.  
+       Siehe Fehler
+    validations:
+      required: false
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: Bei welchen Browsern tritt das Problem auf?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
